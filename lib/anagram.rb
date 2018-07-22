@@ -11,5 +11,4 @@ class Anagram
     words.select{|w| w.split("").sort == @word.split("").sort}
   end
 
-
 end
